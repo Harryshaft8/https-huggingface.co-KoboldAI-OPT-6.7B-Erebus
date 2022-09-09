@@ -2,6 +2,7 @@
 language: en
 license: other
 commercial: no
+inference: false
 ---
 # OPT 13B - Erebus
 ## Model description
