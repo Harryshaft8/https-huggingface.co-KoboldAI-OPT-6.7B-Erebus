@@ -22,7 +22,7 @@ The dataset uses `[Genre: <comma-separated list of genres>]` for tagging.
 You can use this model directly with a pipeline for text generation. This example generates a different sequence each time it's run:
 ```py
 >>> from transformers import pipeline
->>> generator = pipeline('text-generation', model='KoboldAI/OPT-13-B-erebus')
+>>> generator = pipeline('text-generation', model='KoboldAI/OPT-13B-Erebus')
 >>> generator("Welcome Captain Janeway, I apologize for the delay.", do_sample=True, min_length=50)
 [{'generated_text': 'Welcome Captain Janeway, I apologize for the delay."\nIt's all right," Janeway said. "I'm certain that you're doing your best to keep me informed of what\'s going on."'}]
 ```
